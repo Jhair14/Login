@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #6c63ff; /* Cambié el color principal a un violeta suave */
-  --secondary-color: #f9f9f9; /* Un fondo más claro */
-  --text-color: #2d2d2d; /* Color de texto más oscuro */
-  --success-color: #a3e4d7; /* Verde agua */
-  --error-color: #e57373; /* Rojo suave */
-  --google-color: #ff6f61; /* Rojo coral para el botón de Google */
-  --facebook-color: #3f51b5; /* Azul más vibrante para Facebook */
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f9f9; 
+  --text-color: #2d2d2d;
+  --success-color: #a3e4d7; 
+  --error-color: #e57373; 
+  --google-color: #ff6f61; 
+  --facebook-color: #3f51b5;
 }
 
 * {
@@ -49,7 +49,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 4rem 2rem;
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+  background-color: rgba(255, 255, 255, 0.9); 
   border-radius: 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -71,7 +71,7 @@ main {
 .auth-container:hover,
 .google-container:hover,
 .facebook-container:hover {
-  transform: translateY(-5px); /* Efecto de flotación */
+  transform: translateY(-5px);
 }
 
 .google-container,
@@ -105,7 +105,7 @@ button a {
 
 button:hover {
   background-color: #534eb3;
-  transform: scale(1.05); /* Aumenta el tamaño al pasar el ratón */
+  transform: scale(1.05);
 }
 
 /* Botones de Google y Facebook */
